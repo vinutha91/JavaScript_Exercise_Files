@@ -1,3 +1,5 @@
+((a) = ((b)*(2)));
+
 a = b * 2;
 
 (((a) = (b)*(2)));
@@ -5,6 +7,12 @@ a = b * 2;
 a = b * 2 + foo(c*3);
 
 [[a] = [[[b] * [2]] + [[foo]( [[c] * [3]] )]]]; 
+
+
+
+
+a = b + (2 * foo(c*3));
+
 
 // * Statements are comprised of expressions
 // * a = b*2;
